@@ -1,0 +1,18 @@
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #CCC;
+  display: inline-block;
+
+  &.inPath {
+    border: 1px solid #FF0;
+  }
+
+  &.asObstacle {
+    border: 1px solid #F00;
+  }
+
+  .cellContainer {
+    position: relative;
+  }
+}
